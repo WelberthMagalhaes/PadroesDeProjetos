@@ -1,5 +1,5 @@
 
-public class DecoratorImpressoraCopiadoraMono extends DecoratorImpressora{
+public class DecoratorImpressoraCopiadoraMono extends DecoratorImpressoraAbstract{
 
     public DecoratorImpressoraCopiadoraMono(ImpressorasInterface impressora) {
         super(impressora);

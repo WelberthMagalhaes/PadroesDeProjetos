@@ -1,9 +1,10 @@
 
-public abstract class DecoratorImpressora implements ImpressorasInterface{
+
+public abstract class DecoratorImpressoraAbstract implements ImpressorasInterface{
 
     protected ImpressorasInterface impressora;
 
-    public DecoratorImpressora(ImpressorasInterface impressora){
+    public DecoratorImpressoraAbstract(ImpressorasInterface impressora){
         this.impressora = impressora;
     }
     
